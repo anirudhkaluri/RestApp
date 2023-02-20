@@ -17,6 +17,7 @@ public class MyResource {
     @GET 
     @Produces("text/plain")
     public String getIt() {
+    	System.out.println("\n\n\n\nhiii we are in myResource\n\n\n\n\n");
         return "Hi there!";
     }
 }
